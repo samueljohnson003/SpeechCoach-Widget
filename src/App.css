@@ -1,0 +1,11 @@
+.app { max-width: 700px; margin: 2rem auto; padding: 1rem; font-family: system-ui, sans-serif; }
+header { text-align: center; margin-bottom: 2rem; }
+.start-btn, .widget button { padding: 0.75rem 1.5rem; margin: 0.25rem; border: none; border-radius: 6px; background: #4361ee; color: white; cursor: pointer; }
+.widget button.stop { background: #ef4444; }
+.widget { border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.5rem; }
+.metrics { display: flex; gap: 2rem; margin: 1.5rem 0; }
+.metric { text-align: center; }
+.metric .label { display: block; font-size: 0.85rem; color: #6b7280; }
+.metric .value { font-size: 1.75rem; font-weight: 600; }
+.badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 999px; color: white; font-size: 0.75rem; margin-top: 0.25rem; }
+.feedback, .transcript { background: #f9fafb; padding: 1rem; border-radius: 8px; margin-top: 1rem; }
